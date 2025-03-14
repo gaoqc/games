@@ -3,6 +3,17 @@
     <head>
         <meta charset="utf-8" />
         <title>HTML5 Games</title>
+        <!--图标-->
+            <!-- ... 其他 head 元素 ... -->
+        <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="192*192" href="/assets/icons/chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="512*512" href="/assets/icons/chrome-512x512.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+        <link rel="manifest" href="/assets/icons/site.webmanifest">
+
+
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
@@ -11,11 +22,11 @@
             <p id="expand">Expand for more games.</p>
             <p id="select">Select a game.</p>
             <ul id="nav">
-                <li><a href="#bounce" data-game="bounce" class="selected">Bounce</a></li>
+                <li><a href="#pacman" data-game="pacman" class="selected">Pacman</a></li>   
                 <li><a href="#snake" data-game="snake">Snake</a></li>
                 <li><a href="#tetris" data-game="tetris">Tetris</a></li>
                 <li><a href="#defender" data-game="defender">Defender</a></li>
-                <li><a href="#pacman" data-game="pacman">Pacman</a></li>
+                <li><a href="#bounce" data-game="bounce" >Bounce</a></li>
                 <li><a href="#puzzle" data-game="puzzle">Puzzle</a></li>
                 <li><a href="#spider" data-game="spider">Spider</a></li>
             </ul>
@@ -35,7 +46,7 @@
             window.addEventListener("load", () => {
                 "use strict";
                 const header = document.querySelector("header");
-                play(location.hash.substring(1) || "bounce");
+                play(location.hash.substring(1) || "pacman");
                 document.querySelector("#nav").addEventListener("click", (e) => {
                     if (e.target.dataset.game) {
                         play(e.target.dataset.game);
