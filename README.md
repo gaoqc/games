@@ -1,8 +1,25 @@
-# HTML5 Games
+# HTML5 游戏集合
 
-A collection of old style addictive games writen in JavaScript, HTML and CSS.
+这是一个使用JavaScript、HTML和CSS编写的经典游戏集合，重现了多款令人怀念的经典游戏。
 
+## 游戏列表
 
-## Play
+- **弹球**：经典的弹球游戏，控制挡板反弹球体击破砖块
+- **贪吃蛇**：控制蛇吃食物并不断成长，避免撞到墙壁或自己
+- **俄罗斯方块**：安排下落的方块形成完整的行以获得分数
+- **后卫**：保护你的基地不被敌人入侵
+- **吃豆人**：在迷宫中收集所有豆子，同时避开鬼魂
+- **拼图**：重新排列打乱的图片碎片还原完整图像
+- **纸牌**：经典的纸牌游戏集合
 
-Go [play](http://tommalbran.github.io/games/) and have fun :)
+## 在线游戏
+
+访问[游戏主页](https://min-crossword.com/)开始游戏，祝您玩得开心！
+
+## 本地运行
+
+1. 克隆此仓库：
+   ```bash
+   git clone git@github.com:gaoqc/games.git
+   cd games
+   ```
