@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /data
 Allow: /
 Sitemap: https://min-crossword.com/sitemap.xml
 
